@@ -2,33 +2,96 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: content-box;
 }
 
-.conteiner {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: Start;
-}
+
 .item {
+    position:static;
     flex-basis: 50%;
+    text-align: center;
+
 }
 .container_item {
     flex-flow: column nowrap;
-    justify-content: start;
-    align-items: flex-start;
+    justify-content:center;
+    align-items: center;
     flex-basis: 50%;
 }
 
-.gigachad {
-    background-image: url("gigachad.jpg");
+.fixed-background {
     min-height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:1500px;
 }
+.fixed-border {
+    border-top:5px solid #222222;
+    border-bottom:5px solid #222222;
+}
+.gigachad {
+    background-size: cover;
+    min-height: 200px;
+    background-image: url("gigachad.jpg");
+}
+.HU {
+    background-image: url("HU.jpg");
+}
+.round-left {
+    width:80%;
+    text-align: center;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color: #222222;
+}
+.round-right {
+    width:80%;
+    float:right;
+    color:white;
+    text-align: center;
+    margin-top:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    background-color: #222222;
+}
+.gallery {
+    width: 60%;
+    margin:auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item {
+    width: 25%px;
+    margin: 10px;
+    text-decoration: none;
+  }
+.gallery-item img {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+
+}
+.text-wrapper {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+  }
+  
+  .text-wrapper:hover {
+    transition: all 0.8s ease;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+  }
+
+
 h2 {
     font-size: 40px;
     color:rgb(255, 207, 32);
@@ -36,6 +99,10 @@ h2 {
 p, li{
     font-size: 20px;
     padding:20px;
+}
+.quote {
+    color:darkgray;
+    text-align: right;
 }
 li {
     position:relative;
@@ -66,7 +133,7 @@ li {
 #stage a:nth-of-type(1) {
     animation-name: fader;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 0.1ms;
     z-index: 20;
 }
 #stage a:nth-of-type(2) {
