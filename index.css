@@ -26,11 +26,21 @@ a {
     text-align: center;
     align-items: center;
     flex-grow:1;
-    background-image: url("pildid/1.jfif");
     background-size:cover ;
     background-position:center ;
     transition-property: min-width;
     transition-duration: 1s;
+}
+.HU {
+    background-image: url("pildid/HU_logo.webp") ;
+}
+
+.ideoloogia {
+    background-image: url("pildid/ideology.webp") ;
+}
+
+.kickbox {
+    background-image: url("pildid/kickbbox.jpg") ;
 }
 
 .text-wrapper {

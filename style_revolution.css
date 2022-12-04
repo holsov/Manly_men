@@ -10,11 +10,9 @@
     text-align: center;
 
 }
-.item1 {
-    flex-basis: 400px;
-}
+
 .container_item {
-    flex-basis:50% ;
+    flex-basis: 50%;
     display:flex;
     flex-flow: column wrap;
     justify-content:center;
@@ -72,7 +70,7 @@
     align-items: center;
 }
 .gallery-item {
-    width:25%px;
+    width:25% + 25px;
     padding:10px;
     text-decoration: none;
   }
