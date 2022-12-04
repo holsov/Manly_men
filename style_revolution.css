@@ -12,11 +12,11 @@
 }
 
 .container_item {
-    flex-basis: 50%;
     display:flex;
     flex-flow: column wrap;
     justify-content:center;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -70,7 +70,7 @@
     align-items: center;
 }
 .gallery-item {
-    width:25% + 25px;
+    width: 256px;
     padding:10px;
     text-decoration: none;
   }
@@ -138,9 +138,6 @@ p {
     border: none;
     background: none;
 }
-#stage img {
-    max-height: 400px;
-  }
   
 #stage a:nth-of-type(1) {
     animation-name: fader;

@@ -50,9 +50,8 @@ body {
     background-color: lightgoldenrodyellow;
     display:flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: Start;
-    flex-basis:50%;
+    justify-content: center;
+    align-items: center;
 
 
 }
