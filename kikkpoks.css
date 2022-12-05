@@ -21,13 +21,13 @@
     transition:all 1s ease;
 }
 .navElem:hover {
-    background-color: red;
+    background-color: darkred;
 }
 .navElem:focus {
-    background-color: rgb(175, 0, 0);
+    background-color: darkred;
 }
 .navElem.active {
-    background-color: rgb(175, 0, 0);
+    background-color: darkred;
 }
 
 .conteiner {
