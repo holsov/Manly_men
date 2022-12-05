@@ -6,12 +6,6 @@
     background:blanchedalmond;
     z-index: 1;
 }
-.authors {
-    height: 40px;
-    width: 100%;
-    background-color:blanchedalmond;
-    clear:both;
-}
 
 .navElem {
     display: inline-block;
