@@ -13,6 +13,7 @@
 
 .container_item {
     display:flex;
+
     flex-flow: column wrap;
     justify-content:center;
     align-items: center;
@@ -118,10 +119,6 @@ p {
 .quote {
     color:darkgray;
     text-align: right;
-}
-.join {
-    margin:100px;
-    text-align: center;
 }
 
 
