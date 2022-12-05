@@ -1,10 +1,55 @@
-@import url("style.css");
+.header {
+    text-align: center;
+    position: fixed;
+    width:100%;
+    top:0;
+    background: blanchedalmond;
+    z-index: 100;
+}
 
-/*.container {
+.navElem {
+    display: inline-block;
+    font-family:fantasy;
+    color: darkred;
+    font-size:large;
+    /*border:3px solid blanchedalmond;*/
+    background: blanchedalmond;
+    cursor: pointer;
+    margin:0;
+    padding: 16px;
+    text-decoration: none;
+    transition:all 1s ease;
+}
+.navElem:hover {
+    background-color: red;
+}
+.navElem:focus {
+    background-color: rgb(175, 0, 0);
+}
+.navElem.active {
+    background-color: rgb(175, 0, 0);
+}
+
+.conteiner {
+    width: 100%;
+    top:53px;
+    bottom:20px;
+
+    background-color: white;
+}
+
+body {
+    background-color: #4a4a4a;
+    margin:0;
+    margin-top: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
-}*/
+}
 
 .sisu-tiitel {
     margin-top: 2em;
@@ -27,6 +72,8 @@
     padding: 20px;
     background-color: rgb(175, 0, 0);;
     font-weight: bold;
+    color: white;
+    padding-top: 28px;
 }
 
 .videote-tiitel {
@@ -69,13 +116,6 @@
     font-weight: bold;
 }
 
-.footer {
-    display: flex;
-    background-color: rgb(175, 0, 0);;
-    padding: .6em;
-    margin-top: 2em;
-}
-
 .jake-image {
     height: 200px;
     width: 300px;
@@ -86,6 +126,7 @@
 .jake-pilt-wrap {
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .tekst {
@@ -118,8 +159,22 @@ p {
     font-size: 16.5px;
 }
 
-.join {
+.footer {
     text-align: center;
-    background-color: darkred;
+    background-color: blanchedalmond;
     padding-top: 0.1px;
+    width: auto;
+}
+
+.footer h1{
+    color: darkred;
+    font-weight: 700;
+    border-bottom: 1px darkred solid;
+    padding-bottom: 18px;
+}
+
+.footer a{
+    border: 5px white dotted;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
