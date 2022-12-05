@@ -176,8 +176,14 @@ p {
     padding-bottom: 18px;
 }
 
-.footer a{
-    border: 5px white dotted;
-    font-weight: 500;
-    margin-bottom: 20px;
+.join {
+    height:auto;
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    color:darkred;
+    background-color:blanchedalmond;
+    text-align: center;
+    clear:both;
 }
