@@ -33,13 +33,6 @@
     color: white;
 }
 
-.conteiner {
-    width: 100%;
-    top:53px;
-    bottom:20px;
-    background-color: white;
-}
-
 body {
     background-color: #fafad2;
     margin:0;
@@ -54,9 +47,11 @@ body {
 }
 
 .sisu-tiitel {
+    font-family:fantasy;
     margin-top: 2em;
     text-align: center;
     margin-bottom: 2em;
+    font-weight: 100;
 }
 
 .karjaar-image {
@@ -73,20 +68,17 @@ body {
     align-items: center;
     padding: 20px;
     background-color: rgb(175, 0, 0);;
-    font-weight: bold;
+    font-weight: 120;
     color: white;
     padding-top: 28px;
+    font-family:fantasy;
 }
 
 .videote-tiitel {
+    font-weight: 100;
     margin-top: 3em;
     text-align: center;
-}
-
-.pealmine {
-    display: flex;
-    width: 100%;
-    height: auto;
+    font-family:fantasy;
 }
 
 .button {
@@ -115,7 +107,7 @@ body {
     background-color: darkred;
     border: none;
     border-radius: .3em;
-    font-weight: bold;
+    font-weight: 150;
 }
 
 .jake-image {
@@ -132,7 +124,7 @@ body {
 }
 
 .tekst {
-    font-weight: 150;
+    font-weight: 100;
     margin: 0 3em;
     margin-top: 2em;
     text-align: center;
@@ -146,10 +138,12 @@ body {
 }
 
 .video-tiitel {
+    font-family:fantasy;
     display: flex;
     justify-content: center;
     font-size: 16.5px;
     color: black;
+    font-weight: 100;
 }
 
 .kast {
@@ -157,7 +151,7 @@ body {
 }
 
 p {
-    font-weight: 150;
+    font-weight: 100;
     font-size: 16.5px;
 }
 
@@ -170,13 +164,15 @@ p {
 
 .footer h1{
     color: darkred;
-    font-weight: 700;
+    font-weight: 400;
     border-bottom: 1px darkred solid;
     padding-bottom: 18px;
+    font-family:fantasy;
 }
 
 .footer a{
     border: 5px white dotted;
-    font-weight: 500;
+    font-weight: 250;
     margin-bottom: 20px;
+    font-family:fantasy;
 }
