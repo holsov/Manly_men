@@ -22,19 +22,21 @@
 }
 .navElem:hover {
     background-color: darkred;
+    color: white;
 }
 .navElem:focus {
     background-color: darkred;
+    color: white;
 }
 .navElem.active {
     background-color: darkred;
+    color: white;
 }
 
 .conteiner {
     width: 100%;
     top:53px;
     bottom:20px;
-
     background-color: white;
 }
 
