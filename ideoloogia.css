@@ -131,3 +131,23 @@ img{
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
+
+.footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 0.1px;
+    width: auto;
+}
+
+.footer h1{
+    color: darkred;
+    font-weight: 700;
+    border-bottom: 1px darkred solid;
+    padding-bottom: 18px;
+}
+
+.footer a{
+    border: 5px white dotted;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
