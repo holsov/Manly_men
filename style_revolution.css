@@ -75,12 +75,13 @@
     text-decoration: none;
   }
 .gallery-item img {
-    position:absolute;
+    position: absolute;
     width: 256px;
     height: 256px;
 
 }
 .text-wrapper {
+    position:relative;
     width: 256px;
     height: 256px;
     display: flex;
