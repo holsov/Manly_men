@@ -1,5 +1,45 @@
-@import url("style.css");
+.header {
+    text-align: center;
+    position: fixed;
+    width:100%;
+    top:0;
+    background: blanchedalmond;
+    z-index: 100;
+}
 
+.navElem {
+    display: inline-block;
+    font-family:fantasy;
+    color: darkred;
+    font-size:large;
+    /*border:3px solid blanchedalmond;*/
+    background: blanchedalmond;
+    cursor: pointer;
+    margin:0;
+    padding: 16px;
+    text-decoration: none;
+    transition:all 1s ease;
+}
+.navElem:hover {
+    background-color: darkred;
+    color:white;
+}
+.navElem:focus {
+    background-color: darkred;
+    color:white;
+}
+.navElem.active {
+    background-color: darkred;
+    color:white;
+}
+
+.conteiner {
+    width: 100%;
+    top:53px;
+    bottom:20px;
+
+    background-color: white;
+}
 
 body {
     background-color: #fafad2;
