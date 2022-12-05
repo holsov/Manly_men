@@ -21,13 +21,16 @@
     transition:all 1s ease;
 }
 .navElem:hover {
-    background-color: red;
+    background-color: darkred;
+    color:white;
 }
 .navElem:focus {
-    background-color: rgb(175, 0, 0);
+    background-color: darkred;
+    color:white;
 }
 .navElem.active {
-    background-color: rgb(175, 0, 0);
+    background-color: darkred;
+    color:white;
 }
 
 .conteiner {
@@ -70,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgb(175, 0, 0);;
+    background-color: darkred;
     font-weight: bold;
     color: white;
     padding-top: 28px;
